@@ -16,26 +16,13 @@ public class NewTubeSystem {
 	      amy.nickname = "amyamy";
 	      amy.age = 17;
 	    
-	      System.out.println("User Info" +
-	                         "\nemail: " + steve.email +
-	                         "\nnickname: " + steve.nickname +
-	                         "\nage: " + steve.age);
-	  
-	    if(steve.age < 20) {
-	    	System.out.println("\n" + steve.nickname + " is under 20");
-	    } else {
-	    	System.out.println("\n" + steve.nickname + " is over 20");
-	    	}
+	   steve.printInfo();
+	   steve.isOver20();
 	 
-	    System.out.println("\nUser Info" +
-	                         "\nemail: " + amy.email +
-	                         "\nnickname: " + amy.nickname +
-	                         "\nage: " + amy.age);
+	   amy.printInfo();
+       amy.isOver20();
+    
 	  
-	    if(amy.age < 20) {
-	    	System.out.println("\n" + amy.nickname + " is under 20");
-	    } else {
-	    	System.out.println("\n" + amy.nickname + " is over 20");
-	    	}
+	 
 	    }
 }
